@@ -24,6 +24,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QY5-O2-HFA" id="kJu-Nk-xpA">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <color key="tintColor" red="0.31626027820000002" green="0.63256865740000001" blue="0.96866697069999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -69,10 +70,12 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoItemCell" id="Tui-Po-dCb">
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tui-Po-dCb" id="TRs-fK-dcE">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tui-Po-dCb" id="TRs-fK-dcE" colorLabel="IBBuiltInLabel-Blue">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <color key="tintColor" red="0.31626027820000002" green="0.63256865740000001" blue="0.96866697069999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </tableViewCellContentView>
+                                <color key="tintColor" red="0.31626027820000002" green="0.63256865740000001" blue="0.96866697069999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -80,7 +83,7 @@
                             <outlet property="delegate" destination="7oL-3s-YVj" id="ELU-rg-8VL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Items" id="o9N-rE-Fmm">
+                    <navigationItem key="navigationItem" title="Items" id="o9N-rE-Fmm" colorLabel="IBBuiltInLabel-Gray">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="GW2-8f-J5e">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
